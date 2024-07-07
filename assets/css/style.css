@@ -25,6 +25,11 @@ body {
 
 header {
     background-color: #FAF2EC;
+    padding: 1 rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #8D6253;
 
 }
 
