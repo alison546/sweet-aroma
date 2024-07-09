@@ -37,41 +37,58 @@ header a {
     text-decoration: none;
 }
 
+h1 {
+    font-family: 'Lobster', sans-serif;
+    color: #8D6253;
+    letter-spacing: 2px;
+
+}
+
 header::after {
     content: '';
     display: table;
     clear: both;
-
 }
+
+
 
 .container {
     width: 80%;
     margin: 0 auto;
 }
 
-#logo {
+/* #logo {
     color: #8D6253;
     font-family: "Lobster", sans-serif;
     font-weight: 400;
     font-style: normal;
-    padding: 10px 0;
-}
+    padding: 10px 0; 
+} */
 
+/* Navbar styles with dropdown toggle*/
 nav {
     float: right;
+    position: relative;
+    display: none;
+
 }
 
 nav ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
+    letter-spacing: 4px;
 }
 
 nav li {
     display: inline-block;
     margin-left: 70px;
     padding-bottom: 25px;
-    position: relative;
+
+}
+
+.active {
+    border-bottom: 2px solid #8D6253;
 }
 
 nav a {
@@ -84,6 +101,8 @@ nav a {
 nav a:hover {
     color: #DC9163;
 }
+
+
 
 
 
