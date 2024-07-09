@@ -59,7 +59,7 @@ h1 {
 }
 
 .active {
-    border-bottom: 1px solid #624637;
+    background-color: #F2D9C2;
 }
 
 /*Navbar styles with dropdown toggle */
