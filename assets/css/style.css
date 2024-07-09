@@ -22,98 +22,83 @@ body {
 
 }
 
-
 header {
-    background-color: #FAF2EC;
-    padding: 1 rem;
+    background-color: #FAF3EB;
+    padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #8D6253;
-
+    box-shadow: 0 2px 2px #7F5740;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
     text-decoration: none;
+    color: #624637;
+    ;
 }
 
 h1 {
-    font-family: 'Lobster', sans-serif;
-    color: #8D6253;
-    letter-spacing: 2px;
-
-}
-
-header::after {
-    content: '';
-    display: table;
-    clear: both;
-}
-
-
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-/* #logo {
-    color: #8D6253;
     font-family: "Lobster", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    padding: 10px 0; 
-} */
-
-/* Navbar styles with dropdown toggle*/
-nav {
-    float: right;
-    position: relative;
-    display: none;
-
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: #624637
 }
 
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+#menu {
+    font-size: 110%;
     letter-spacing: 4px;
+    list-style-type: none;
 }
 
-nav li {
-    display: inline-block;
-    margin-left: 70px;
-    padding-bottom: 25px;
+#menu li {
+    margin-bottom: 1em;
 
 }
 
 .active {
-    border-bottom: 2px solid #8D6253;
+    border-bottom: 1px solid #624637;
 }
 
-nav a {
-    color: #8F5E46;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 14px;
+/*Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #FAF3EB;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #7F5740;
+    display: none;
+    top: 100%;
+
 }
 
-nav a:hover {
-    color: #DC9163;
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+
 }
 
+#nav-toggle {
+    display: none;
+}
 
+.nav-toggle-label {
+    font-size: 2rem;
+}
 
 
 
 
 main {
-    background-color: #F2D9C4;
+    background-color: #F2D9C2;
     flex: 1 0 auto;
 
 }
 
 footer {
-    background-color: blue;
+    background-color: #8E6253;
 
 }
