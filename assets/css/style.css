@@ -89,19 +89,26 @@ nav {
     font-size: 2rem;
 }
 
-
-
-
 main {
     background-color: #F2D9C2;
     flex: 1 0 auto;
-    margin-top: 40px;
+    margin-top: 43px;
 
 }
 
-footer {
-    background-color: #8E6253;
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: #FAF3EB;
+}
 
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #624637;
 }
 
 /* Media query tablets and larger */
