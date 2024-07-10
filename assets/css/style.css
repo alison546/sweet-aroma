@@ -19,7 +19,20 @@ body {
     /* Generic Body Styles*/
     color: #3a3a3a;
     font-family: 'Roboto', sans-serif;
+}
 
+h1 {
+    font-family: "Lobster", sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: #624637
+}
+
+h2,
+h3 {
+    font-family: "Lobster", sans-serif;
+    letter-spacing: 2px;
+    color: #FAF3EB;
 }
 
 header {
@@ -40,12 +53,6 @@ header a {
     ;
 }
 
-h1 {
-    font-family: "Lobster", sans-serif;
-    text-transform: capitalize;
-    letter-spacing: 2px;
-    color: #624637
-}
 
 #menu {
     font-size: 110%;
@@ -101,6 +108,18 @@ main {
     height: 600px;
     width: 100%;
     background: url("../images/raspberry-tart.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    background-color: rgba(144, 100, 88, 0.5);
+    font-size: 130%;
+    text-align: center;
+    position: absolute;
+    top: 30px;
+    width: 50%;
+    min-height: 100px;
+    padding: 20px;
 }
 
 
@@ -157,6 +176,11 @@ main {
     main {
         /* Push main content down to accommodate larger header */
         margin-top: 75px;
+    }
+
+    #cover-text {
+        width: 300px;
+        right: 50px;
     }
 }
 
