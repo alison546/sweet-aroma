@@ -55,9 +55,10 @@ header a {
 
 
 #menu {
-    font-size: 110%;
+    font-size: 120%;
     letter-spacing: 4px;
     list-style-type: none;
+
 }
 
 #menu li {
@@ -122,14 +123,26 @@ main {
     padding: 20px;
 }
 
-#reasons>h1 {
-    top: 20px;
+#about-us>h1 {
+    margin-top: 20px;
     text-align: center;
+    font-size: 40px;
 }
 
-#reasons>p {
+#about-us>p {
     margin: 20px;
-    padding: 50px
+    font-size: 25px;
+    padding: 50px;
+    text-align: justify;
+}
+
+/*Photo Gallery on Home page */
+.card-text>h2 {
+    color: #624637;
+}
+
+.card-image>img {
+    width: 250px;
 }
 
 /*Gallery*/
