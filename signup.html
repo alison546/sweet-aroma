@@ -35,26 +35,49 @@
         </nav>
     </header>
 
-    <!-- Main -->
     <main>
-        <section id="signup">
-            <form id="signup-form" method="post" action="https://formdump.codeinstitute.net">
-                <h1>Let's get you signed up!</h1>
-                <label for="first-name">First Name:</label>
-                <input type="text" name="first-name" id="first-name" class="text-input" required>
-                <br>
-                <label for="last-name">Second Name:</label>
-                <input type="text" name="second-name" id="second-name" class="text-input" required>
-                <br>
-                <label for="email-address">Email Address:</label>
-                <input type="email" name="email-address" id="email-address" class="text-input" required>
-                <br>
-                <button type="submit" class="join-button">Join our Community!</button>
+        <h2>Let's get you signed up!</h2>
+        <div class="container">
+            <form action="https://formdump.codeinstitute.net">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="first-name">First Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="first-name" name="first-name">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="last-name">Last Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="last-name" name="last-name">
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="email" id="email" name="email">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="message">Your message</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="message" name="message" style="height:200px">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="submit" value="Submit">
+                    </div>
                 </div>
             </form>
-        </section>
-    </main>
+        </div>
 
+    </main>
 
     <!--Footer-->
     <footer>

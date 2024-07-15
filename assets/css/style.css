@@ -157,6 +157,42 @@ img {
     grid-gap: 20px;
 }
 
+/*Signup form styling*/
+input[type=text] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #624637;
+    border-radius: 10px;
+    resize: vertical;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #624637;
+    border-radius: 10px;
+    resize: vertical;
+}
+
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #624637;
+    color: #FAF3EB;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+
+
+
 
 /* Footer */
 #social-networks {
