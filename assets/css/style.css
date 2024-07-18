@@ -19,7 +19,7 @@ body {
     /* justify-content: center; */
     /* align-items: center; */
     color: #3a3a3a;
-    background-color: #F2D9C2;
+    /* background-color: #F2D9C2; */
     /* Generic Body Styles*/
     color: #3a3a3a;
     font-family: 'Roboto', sans-serif;
@@ -169,6 +169,7 @@ main {
 
 
 /*Photo Gallery on Home page */
+
 .gallery-cards {
     width: 100%;
     display: flex;
@@ -202,10 +203,6 @@ main {
 
 .gallery-cards a:hover {
     text-decoration: underline;
-
-
-
-
 }
 
 .cards {
@@ -214,12 +211,6 @@ main {
     width: 250px;
     border-radius: 10px;
 }
-
-/* a {
-    text-decoration: none;
-    color: #624637;
-} */
-
 
 .cards>img {
     width: 250px;
@@ -249,43 +240,35 @@ desc {
 }
 
 /*Signup form styling*/
-input[type=text] {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #624637;
-    border-radius: 10px;
-    resize: vertical;
+
+
+.signup_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
-input[type=email] {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #624637;
-    border-radius: 10px;
-    resize: vertical;
+.signup_form_container {
+    border-radius: 0.7rem;
+    background-color: #FAF3EB;
+    padding: 1rem;
+}
+
+*/ .text-input {
+    padding: 10px;
+    font-size: 12px;
+    width: 90%;
+    margin: 0.2rem 1rem;
 }
 
 
-label {
-    padding: 12px 12px 12px 0;
-    display: inline-block;
-}
 
-input[type=submit] {
-    background-color: #624637;
-    text-align: center;
-    color: #FAF3EB;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
 
-}
+
+
 
 /* Footer */
-
-
-
 .social-networks {
     width: 100%;
     margin: 0;
@@ -293,7 +276,7 @@ input[type=submit] {
     display: flex;
     justify-content: center;
     list-style-type: none;
-    background-color: #FAF3EB;
+    background-color: #fff;
 }
 
 .social-networks i {
@@ -305,7 +288,7 @@ input[type=submit] {
 }
 
 .social-networks i:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 /* Media query mobile phones*/

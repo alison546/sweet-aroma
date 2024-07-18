@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
+<body class="signup_page">
     <!-- Header -->
     <header>
         <a href="index.html">
@@ -36,46 +36,37 @@
     </header>
 
     <main>
-        <h2>Let's get you signed up!</h2>
-        <div class="container">
-            <form method="GET">
-                <div class="row">
-                    <div class="col-25">
-                        <label for="first-name">First Name</label>
+        <h2 class="signed_up">
+            Let's get you signed up!
+        </h2>
+        <section class="signup_form">
+            <div class="signup_form_container">
+                <!--Form-->
+                <form method="GET">
+                    <!--First Name-->
+                    <label for="first-name" class="first-name-label">First Name</label>
+                    <div class="first-name-input">
+                        <input type="text" id="first-name" name="first-name" class="text-input" required>
                     </div>
-                    <div class="col-75">
-                        <input type="text" id="first-name" name="first-name" required>
+                    <!--Last Name-->
+                    <label for="last-name" class="last-name-label">Last Name</label>
+                    <div class="last-name-input">
+                        <input type="text" id="last-name" name="last-name" class="text-input" required>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-25">
-                        <label for="last-name">Last Name</label>
+                    <!--Email-->
+                    <label for="email" class="email-label">Email</label>
+                    <div class="email-input">
+                        <input type="email" id="email" name="email" class="text-input" required>
                     </div>
-                    <div class="col-75">
-                        <input type="text" id="last-name" name="last-name" required>
+                    <!--Message-->
+                    <label for="message" class="message-label">Your message</label>
+                    <div class="message-input">
+                        <input type="text" id="message" name="message" style="height:200px" class="text-input">
                     </div>
-                    <div class="row">
-                        <div class="col-25">
-                            <label for="email">Email</label>
-                        </div>
-                        <div class="col-75">
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-25">
-                            <label for="message">Your message</label>
-                        </div>
-                        <div class="col-75">
-                            <input type="text" id="message" name="message" style="height:200px">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <input type="submit" value="Submit">
-                    </div>
-                </div>
-            </form>
-        </div>
+                    <button class="signup-button" type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
 
     </main>
 
