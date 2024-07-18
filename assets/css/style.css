@@ -161,7 +161,26 @@ button {
 
 
 /*Photo Gallery on Home page */
-#gallery-cards>h2 {
+.gallery-cards {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2D9C2;
+}
+
+.gallery-cards-container {
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    background-color: #F2D9C2;
+}
+
+.gallery-cards>h2 {
     margin-top: 50px;
     text-align: center;
     font-size: 35px;
