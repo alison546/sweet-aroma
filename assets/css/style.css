@@ -19,6 +19,7 @@ body {
     /* justify-content: center; */
     align-items: center;
     color: #3a3a3a;
+    background-color: #F2D9C2;
     /* Generic Body Styles*/
     color: #3a3a3a;
     font-family: 'Roboto', sans-serif;
@@ -54,7 +55,6 @@ header {
 header a {
     text-decoration: none;
     color: #624637;
-    ;
 }
 
 
@@ -144,23 +144,28 @@ main {
     text-align: center;
 }
 
-button {
+.sign-up {
     display: block;
     margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: #624637;
     background-color: #DB9163;
-    padding: 15px;
-    border: 1px solid #f1f7f9;
-    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
-    border-radius: 15px;
-    font-size: 17px;
-    line-height: 12px;
-
-
+    text-transform: capitalize;
+    letter-spacing: 0;
+    padding: 0 40px;
+    border-radius: 20px;
+    font-size: 15px;
+    line-height: 38px;
+    transition: all 200ms ease;
+    cursor: pointer;
 }
 
+.sign-up a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sign-up:hover {
+    background-color: #624637;
+}
 
 
 /*Photo Gallery on Home page */
@@ -197,10 +202,10 @@ button {
     border-radius: 10px;
 }
 
-a {
+/* a {
     text-decoration: none;
     color: #624637;
-}
+} */
 
 
 .cards>img {
@@ -255,6 +260,7 @@ label {
 
 input[type=submit] {
     background-color: #624637;
+    text-align: center;
     color: #FAF3EB;
     padding: 12px 20px;
     border: none;
@@ -263,13 +269,21 @@ input[type=submit] {
 
 }
 
-
-
-
-
 /* Footer */
-#social-networks {
+.social-networks {
+    width: 100%;
+    /* display: flex; */
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    background-color: #F2D9C2;
+}
+
+
+
+.social-networks-container {
     text-align: center;
+    width: 100%;
     padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
@@ -277,10 +291,11 @@ input[type=submit] {
     background-color: #FAF3EB;
 }
 
-#social-networks i {
+.social-networks-container i {
     font-size: 160%;
     padding: 5%;
     color: #624637;
+
 }
 
 /* Media query mobile phones*/
