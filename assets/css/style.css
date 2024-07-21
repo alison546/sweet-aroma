@@ -57,6 +57,10 @@ header a {
     color: #624637;
 }
 
+header a:hover {
+    text-decoration: underline;
+}
+
 
 #menu {
     font-size: 120%;
@@ -109,7 +113,7 @@ main {
 }
 
 /* Hero section */
-#hero {
+.hero {
     height: 600px;
     width: 100%;
     background: url("../images/raspberry-tart.jpg") no-repeat center center/cover;
@@ -131,14 +135,20 @@ main {
     color: #FAF3EB;
 }
 
-#about-us>h2 {
-    margin-top: 20px;
-    text-align: center;
-    font-size: 40px;
+.about-us {
+    max-width: 100%;
+    margin: 20px;
+    padding: 20px;
+
 }
 
-#about-us>p {
-    margin: 20px;
+.about-us>h2 {
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.about-us>p {
     font-size: 24px;
     padding: 20px;
     text-align: center;
@@ -227,16 +237,26 @@ main {
 
 /*Gallery*/
 
-.image-gallery img {
-    width: 250px;
-    height: 200px;
-    border-radius: 10px;
-    padding: 10px;
+
+.grid-wrapper>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-desc {
-    padding: 15px;
-    text-align: center;
+.grid-wrapper>div>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(autofit, minmax(250px, 1fr));
+    grid-auto-rows: 200px;
+    grid-auto-flow: dense;
 }
 
 /*Signup form styling*/
@@ -294,9 +314,9 @@ desc {
 /* Media query mobile phones*/
 
 
-@media screen and (min-width: 334px) {
+/* @media screen and (min-width: 334px) {
 
-    /* Gallery Cards on Index Page */
+    Gallery Cards on Index Page 
 
 
     img {
@@ -308,7 +328,7 @@ desc {
         grid-template-columns: 250px;
 
     }
-}
+} */
 
 /* Media query tablets and larger */
 
@@ -354,7 +374,7 @@ desc {
         right: 50px;
     }
 
-    /*Gallery*/
+    /*Gallery
     img {
         width: 250px;
         border-radius: 10px;
@@ -364,17 +384,17 @@ desc {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 250px;
         grid-gap: 15px;
-    }
+    }*/
 
 }
 
-@media screen and (min-width: 992px) {
+/*@media screen and (min-width: 992px) {
     #menu a:hover {
         color: #DB9163;
 
     }
 
-    /*Gallery*/
+    Gallery
     img {
         width: 300px;
         border-radius: 10px;
@@ -387,4 +407,4 @@ desc {
     }
 
 
-}
+}*/
