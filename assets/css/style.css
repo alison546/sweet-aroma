@@ -58,7 +58,17 @@ header a {
 }
 
 header a:hover {
-    text-decoration: underline;
+    color: #DB9163;
+}
+
+#logo {
+    color: #624637;
+
+}
+
+#logo:hover {
+    color: #DB9163;
+    text-decoration: none;
 }
 
 
@@ -275,7 +285,7 @@ main {
     padding: 1rem;
 }
 
-*/ .text-input {
+.text-input {
     padding: 10px;
     font-size: 12px;
     width: 90%;
