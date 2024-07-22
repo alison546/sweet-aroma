@@ -348,21 +348,59 @@ main {
 /* Media query mobile phones*/
 
 
-/* @media screen and (min-width: 334px) {
+@media screen and (min-width: 334px) {
 
-    Gallery Cards on Index Page 
-
-
-    img {
-        width: 250px;
+    /* Gallery Cards on Index Page */
+    .products-collection {
+        max-width: 100%;
+        margin: 20px;
+        padding: 20px;
     }
 
-    .image-gallery {
+    .products-collection>h2 {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .products-collection>p {
+        font-size: 24px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .wrapper {
         display: grid;
-        grid-template-columns: 250px;
+        grid-template-columns: auto;
+        gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
 
     }
-} */
+
+    .products {
+        margin: 20px;
+        float: left;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .products img {
+        width: 300px;
+        height: 280px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .description {
+        padding: 15px;
+        padding-right: 12px;
+        text-align: left;
+        font-size: 18px;
+
+    }
+
+
+}
+
 
 /* Media query tablets and larger */
 
@@ -408,17 +446,57 @@ main {
         right: 50px;
     }
 
-    /*Gallery
-    img {
-        width: 250px;
+    /*Gallery*/
+    .products-collection {
+        max-width: 100%;
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .products-collection>h2 {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .products-collection>p {
+        font-size: 24px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .info {
+        margin-bottom: 10px;
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+
+    }
+
+    .products {
+        margin: 20px;
+        float: left;
+        width: 100%;
         border-radius: 10px;
     }
 
-    .image-gallery {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 250px;
-        grid-gap: 15px;
-    }*/
+    .products img {
+        width: 300px;
+        height: 280px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .description {
+        padding: 15px;
+        padding-right: 12px;
+        text-align: left;
+        font-size: 18px;
+
+    }
 
 }
 
