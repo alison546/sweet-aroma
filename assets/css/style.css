@@ -164,7 +164,7 @@ main {
     text-align: center;
 }
 
-.sign-up {
+.contact-us {
     display: block;
     margin: 0 auto;
     background-color: #DB9163;
@@ -178,12 +178,12 @@ main {
     cursor: pointer;
 }
 
-.sign-up a {
+.contact-us a {
     color: #fff;
     text-decoration: none;
 }
 
-.sign-up:hover {
+.contact-us:hover {
     background-color: #624637;
 }
 
@@ -234,7 +234,7 @@ main {
 
 .cards>img {
     width: 250px;
-    height: 200px;
+    height: 220px;
     border-radius: 10px;
 }
 
@@ -297,27 +297,13 @@ main {
 
 
 /*Signup form styling*/
-
-
-.signup_form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+.image-background {
+    width: 100%;
+    height: 100vh;
+    background-image: url(assets/images/raspberry-tart.jpg);
+    background-size: cover;
 }
 
-.signup_form_container {
-    border-radius: 0.7rem;
-    background-color: #FAF3EB;
-    padding: 1rem;
-}
-
-.text-input {
-    padding: 10px;
-    font-size: 12px;
-    width: 90%;
-    margin: 0.2rem 1rem;
-}
 
 /* Footer */
 .social-networks {
@@ -493,7 +479,7 @@ main {
 
 }
 
-@media screen and (min-width: 1336px) {
+@media screen and (min-width: 1330px) {
     #menu a:hover {
         color: #DB9163;
 
