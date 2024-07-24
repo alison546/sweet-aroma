@@ -170,6 +170,7 @@ main {
     display: block;
     margin: 0 auto;
     background-color: #DB9163;
+    color: #fff;
     text-transform: capitalize;
     letter-spacing: 0;
     padding: 0 40px;
@@ -178,11 +179,6 @@ main {
     line-height: 38px;
     transition: all 200ms ease;
     cursor: pointer;
-}
-
-.contact-us a {
-    color: #fff;
-    text-decoration: none;
 }
 
 .contact-us:hover {
