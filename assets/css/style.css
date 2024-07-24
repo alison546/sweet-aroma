@@ -3,7 +3,9 @@
 
 
 /* Asterisk wildcard selector to override default styles added by the browser */
-* {
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -297,11 +299,17 @@ main {
 
 
 /*Signup form styling*/
+.touch {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
 .form-container {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
 }
 
@@ -325,14 +333,24 @@ textarea {
     cursor: text;
 }
 
-
-button {
-    padding: 10px 0;
-    color: #fff;
-    background-color: #624637;
-    outline: none;
+.submit {
+    display: block;
+    background-color: #DB9163;
+    color: #FAF3EB;
     width: 100%;
+    text-transform: capitalize;
+    letter-spacing: 0;
+    padding: 0 40px;
+    border-radius: 20px;
+    font-size: 15px;
+    line-height: 38px;
+    transition: all 200ms ease;
     cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #624637;
+
 }
 
 /* Footer */
