@@ -18,54 +18,37 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body class="signup_page">
+<body>
     <!-- Header -->
     <header>
         <a href="index.html">
             <h1 id="logo">Sweet Aroma</h1>
         </a>
-        <!-- Nav Bar-->
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
         <nav>
             <ul id="menu">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
+    <!-- Main -->
     <main>
-        <!--Form-->
-        <h2 class="touch">Get in Touch!</h2>
-        <div class="form-container">
-            <form method="GET" action="response.html">
-                <div class="input-group">
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" required>
-                </div>
-                <div class="input-group">
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname" required>
-                </div>
-                <div class="input-group">
-                    <label for="email">Email Address</label>
-                    <input type="email" id="email" required>
-                </div>
-                <div class="input-group">
-                    <label for="message">Your Message (Optional)</label>
-                    <textarea id="message" rows="8"></textarea>
-                </div>
-                <button type="submit" class="submit">Submit</button>
-            </form>
-        </div>
+        <section class="response-text-container">
+            <div class="response-text">
+                <i class="fa-solid fa-check"></i>
+                <h2>Thank you for contacting us!</h2>
+                <p>We have received your message.</p>
+                <p>We'll reach out to you shortly!</p>
+            </div>
+        </section>
     </main>
-
 
     <!--Footer-->
     <footer>
-        <!-- Fav icons-->
         <ul class="social-networks">
             <li>
                 <a href="https://www.facebook.com" target="_blank" rel="noopener"
