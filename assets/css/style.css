@@ -169,6 +169,7 @@ main {
 .contact-us {
     display: block;
     margin: 0 auto;
+    margin-bottom: 20px;
     background-color: #DB9163;
     color: #fff;
     text-transform: capitalize;
@@ -183,7 +184,9 @@ main {
 
 .contact-us:hover {
     background-color: #624637;
+
 }
+
 
 
 /*Photo Gallery on Home page */
@@ -278,8 +281,8 @@ main {
 }
 
 .products img {
-    width: 300px;
-    height: 280px;
+    width: 250px;
+    height: 230px;
     object-fit: cover;
     border-radius: 10px;
 }
@@ -305,13 +308,12 @@ main {
     width: 100%;
     height: 80vh;
     display: flex;
-    /* align-items: center; */
     justify-content: center;
 }
 
 .form {
     width: 90%;
-    max-width: 800px;
+    max-width: 600px;
 }
 
 .input-group {
@@ -320,11 +322,10 @@ main {
 
 input,
 textarea {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     outline: 0;
     color: #3a3a3a;
-    /* background: transparent; */
     font-size: 15px;
     cursor: text;
 }
@@ -333,7 +334,7 @@ textarea {
     display: block;
     background-color: #DB9163;
     color: #FAF3EB;
-    width: 100%;
+    width: 90%;
     text-transform: capitalize;
     letter-spacing: 0;
     padding: 0 40px;
@@ -347,6 +348,10 @@ textarea {
 .submit:hover {
     background-color: #624637;
 
+}
+
+a {
+    text-decoration: none;
 }
 
 /* Response Page */
@@ -401,6 +406,7 @@ textarea {
     transform: scale(1.2);
 }
 
+
 /* Media query mobile phones*/
 
 
@@ -440,8 +446,8 @@ textarea {
     }
 
     .products img {
-        width: 300px;
-        height: 280px;
+        width: 250px;
+        height: 230px;
         object-fit: cover;
         border-radius: 10px;
     }
@@ -452,7 +458,6 @@ textarea {
         font-size: 18px;
 
     }
-
 
 }
 
@@ -519,11 +524,10 @@ textarea {
         text-align: center;
     }
 
-
     .wrapper {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
+        gap: 20px;
         grid-auto-rows: minmax(100px, auto);
 
     }
@@ -537,7 +541,7 @@ textarea {
 
     .products img {
         width: 300px;
-        height: 280px;
+        height: 290px;
         object-fit: cover;
         border-radius: 10px;
     }
@@ -605,5 +609,12 @@ textarea {
         text-align: left;
         font-size: 18px;
 
+    }
+
+    .form-container {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
     }
 }
