@@ -63,4 +63,12 @@ The website can be accessed through this [link](https://alison546.github.io/swee
 * The form is responsive on all screens
 * The submit button leads to the response page.
 
+![alt text](documentation/sweet-aroma-contact-form.png)
+
+## The Response Page 
+* The response page appears after the contact form is submitted
+* It contains a thank you and be in touch shortly message
+![alt text](documentation/sweet-aroma-response-form.png)
+
+
 
