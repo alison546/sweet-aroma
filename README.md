@@ -13,6 +13,10 @@ The website can be accessed through this [link](https://alison546.github.io/swee
 ---
 
 ## Features
+## Favicon
+* A favicon of a birthday cake is displayed in the tab of the website along with the name.
+
+![alt text](documentation/sweet-aroma-favicon.png)
 
 ## Navigation 
 * Featured at the top of the page, the navigation bar shows the name of the bakery in the left corner: Sweet Aroma. If the user hovers over it with the mouse, it will turn from brown to orange, indicating that it is a link and can be clicked. The logo will take the user to the Home Page.
@@ -31,6 +35,32 @@ The website can be accessed through this [link](https://alison546.github.io/swee
 ## The Main Section
 * In the main section, there is an about us section which details what the bakery offers customers and underneath there is a "Get in Touch!" button that when clicked on will bring users to the Contact page.
 * There is a small gallery which illustrates the products that the bakery offers such as: Fresh Cream Cakes, Fresh Cream Pastries, Treats, Breads and Birthday Cakes.
-* A "Back to Top" button allows the user to go back to the top of the page without scrolling
+* A "Back to Top" button allows the user to go back to the top of the page without scrolling.
+
+![alt text](documentation/sweet-aroma-small-gallery.png)
+
+## The Footer Section
+* The footer contains icons for Facebook and Instagram that link to those websites respectively. When hovered over they will increase in size to show they can be clicked on. 
+
+![alt text](documentation/sweet-aroma-footer.png)
+
+## Gallery Page
+* The Gallery Page contains the same navigation bar and footer as the Home Page for easy use.
+* It also contains a "Get in Touch!" under the introductory message that links to the Contact Page.
+* The Gallery contains images of the products that the bakery offers, as well as the prices for each item.
+* The Gallery is responsive to the user's screen and will display as appropriate.
+* A "Back to Top" is displayed underneath the gallery to allow users to go back to the top of the page.
+
+![alt text](documentation/sweet-aroma-gallery-1.png)
+![alt text](documentation/sweet-aroma-gallery-2.png)
+
+
+## The Contact Page 
+* The Contact Page has a contact form for users to fill out.
+* Each of the input fields has labels of: First Name, Last Name and Email.
+* There is a textarea field for the message which is optional
+* All the input fields have a required attribute to ensure users fill out these fields.
+* The form is responsive on all screens
+* The submit button leads to the response page.
 
 
