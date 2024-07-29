@@ -28,4 +28,9 @@ The website can be accessed through this [link](https://alison546.github.io/swee
 
 ![alt text](documentation/sweet-aroma-header.png)
 
+## The Main Section
+* In the main section, there is an about us section which details what the bakery offers customers and underneath there is a "Get in Touch!" button that when clicked on will bring users to the Contact page.
+* There is a small gallery which illustrates the products that the bakery offers such as: Fresh Cream Cakes, Fresh Cream Pastries, Treats, Breads and Birthday Cakes.
+* A "Back to Top" button allows the user to go back to the top of the page without scrolling
+
 

@@ -359,6 +359,7 @@ a {
 /* Response Page */
 
 .response-text-container {
+    margin-top: 10%;
     height: auto;
     width: auto;
     max-width: 100%;
@@ -380,7 +381,6 @@ a {
 
 .response-text>p {
     font-size: 24px;
-    /* padding: 20px; */
     text-align: center;
     margin: 2rem;
 }
