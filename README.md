@@ -37,6 +37,8 @@ The website can be accessed through this [link](https://alison546.github.io/swee
 * There is a small gallery which illustrates the products that the bakery offers such as: Fresh Cream Cakes, Fresh Cream Pastries, Treats, Breads and Birthday Cakes.
 * A "Back to Top" button allows the user to go back to the top of the page without scrolling.
 
+
+![alt text](documentation/sweet-aroma-about-us.png)
 ![alt text](documentation/sweet-aroma-small-gallery.png)
 
 ## The Footer Section
@@ -68,6 +70,7 @@ The website can be accessed through this [link](https://alison546.github.io/swee
 ## The Response Page 
 * The response page appears after the contact form is submitted
 * It contains a thank you and be in touch shortly message
+
 ![alt text](documentation/sweet-aroma-response-form.png)
 
 
