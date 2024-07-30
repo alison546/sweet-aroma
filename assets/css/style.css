@@ -412,11 +412,11 @@ a {
 /* Media query mobile phones*/
 
 
-@media screen and (min-width: 334px) {
+@media screen and (min-width: 318px) {
 
     /* Gallery */
     .products-collection {
-        max-width: 100%;
+        max-width: 50%;
         margin: 20px;
         padding: 20px;
     }
@@ -437,6 +437,7 @@ a {
         grid-template-columns: auto;
         gap: 10px;
         grid-auto-rows: minmax(100px, auto);
+
 
     }
 
@@ -466,7 +467,7 @@ a {
 
 /* Media query tablets and larger */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 580px) {
 
     /* Header */
     nav {
