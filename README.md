@@ -84,3 +84,9 @@ The website can be accessed through this [link](https://alison546.github.io/swee
 * Snipping Tool: was used to edit and resize images for README file
 
 
+## Testing 
+* I tested this website on the Google Chrome and Microsoft Edge browsers
+* I confirmed that the website functions correctly on all screen sizes using Chrome Devtools.
+* The different sections of the website are easy to read and understand
+* The form works correctly, where the user must fill out the input fields and the submit button works as well.
+
