@@ -18,10 +18,8 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     /* align-items: center; */
     color: #3a3a3a;
-    /* background-color: #F2D9C2; */
     /* Generic Body Styles*/
     color: #3a3a3a;
     font-family: 'Roboto', sans-serif;
@@ -37,6 +35,7 @@ h1 {
 h2,
 h3 {
     margin-top: 20px;
+    font-size: 40px;
     font-family: "Lobster", sans-serif;
     letter-spacing: 2px;
     color: #624637;
@@ -121,6 +120,11 @@ main {
     background-color: #F2D9C2;
     flex: 1 0 auto;
     margin-top: 43px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 
 }
 
@@ -203,7 +207,6 @@ main {
 .gallery-cards-container {
     width: 100%;
     display: flex;
-    /* flex-direction: column; */
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -214,7 +217,6 @@ main {
     margin-top: 50px;
     text-align: center;
     font-size: 35px;
-
 }
 
 .gallery-cards a {
@@ -235,8 +237,9 @@ main {
 
 .cards>img {
     width: 250px;
-    height: 220px;
+    height: 200px;
     border-radius: 10px;
+    object-fit: cover;
 }
 
 .desc {
@@ -247,10 +250,14 @@ main {
 
 
 /*Gallery*/
+
 .products-collection {
-    max-width: 100%;
-    margin: 20px;
-    padding: 20px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
 }
 
 .products-collection>h2 {
@@ -266,31 +273,30 @@ main {
 
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
-    margin: 10px;
-
+    grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+    grid-auto-flow: dense;
+    gap: 1vh;
 }
 
 .products {
-    margin: 20px;
     float: left;
     width: 100%;
     border-radius: 10px;
 }
 
 .products img {
-    width: 250px;
-    height: 230px;
+    display: block;
+    max-width: 100%;
+    height: auto;
     object-fit: cover;
+    margin: 0 auto;
     border-radius: 10px;
 }
 
 .description {
     padding: 15px;
     padding-right: 12px;
-    text-align: left;
+    text-align: center;
     font-size: 18px;
 
 }
@@ -298,24 +304,22 @@ main {
 
 
 /*Signup form styling*/
-.touch {
-    text-align: center;
-    font-size: 40px;
-    margin-bottom: 30px;
-}
+
 
 .form-container {
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px;
 }
 
 .form {
-    width: 90%;
-    max-width: 600px;
+    width: 100%;
+    max-width: 500px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .input-group {
@@ -324,7 +328,7 @@ main {
 
 input,
 textarea {
-    width: 90%;
+    width: 100%;
     padding: 10px;
     outline: 0;
     color: #3a3a3a;
@@ -332,11 +336,15 @@ textarea {
     cursor: text;
 }
 
+textarea {
+    resize: none;
+}
+
 .submit {
     display: block;
     background-color: #DB9163;
     color: #FAF3EB;
-    width: 90%;
+    width: 100%;
     text-transform: capitalize;
     letter-spacing: 0;
     padding: 0 40px;
@@ -412,13 +420,18 @@ a {
 /* Media query mobile phones*/
 
 
-@media screen and (min-width: 318px) {
+@media screen and (min-width: 315px) {
 
     /* Gallery */
     .products-collection {
-        /* max-width: 50%; */
-        margin: 20px;
-        padding: 20px;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        width: 100%;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+
     }
 
     .products-collection>h2 {
@@ -434,30 +447,33 @@ a {
 
     .wrapper {
         display: grid;
-        grid-template-columns: auto;
-        gap: 10px;
-        grid-auto-rows: minmax(100px, auto);
-
+        grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+        grid-auto-flow: dense;
+        gap: 1vh;
+        width: 100%;
 
     }
 
     .products {
-        margin: 20px;
+        margin: 0;
         float: left;
         width: 100%;
         border-radius: 10px;
     }
 
     .products img {
+        display: block;
         width: 250px;
-        height: 230px;
+        height: 200px;
         object-fit: cover;
+        margin: 0 auto;
         border-radius: 10px;
+
     }
 
     .description {
         padding: 15px;
-        text-align: left;
+        text-align: center;
         font-size: 18px;
 
     }

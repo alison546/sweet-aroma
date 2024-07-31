@@ -90,3 +90,14 @@ The website can be accessed through this [link](https://alison546.github.io/swee
 * The different sections of the website are easy to read and understand
 * The form works correctly, where the user must fill out the input fields and the submit button works as well.
 
+## Bugs 
+* There were no bugs when I deployed my project to GitHub pages
+
+## Validator Testing
+* An error occured in the Index page when I passed the code through the W3C Validator
+* Error: The element a must not appear as a descendant of the button element.
+* I corrected this error by switching by making the button a descendent of the a element
+* There was no errors in the CSS when it passed through the CSS Jigsaw Validator
+
+
+
