@@ -245,8 +245,10 @@ main {
 .desc {
     padding: 20px;
     text-align: center;
-    font-size: 17px;
+    font-size: 22px;
 }
+
+
 
 
 /*Gallery*/
@@ -348,6 +350,7 @@ textarea {
     text-transform: capitalize;
     letter-spacing: 0;
     padding: 0 40px;
+    border: 1px solid #624637;
     border-radius: 20px;
     font-size: 15px;
     line-height: 38px;
