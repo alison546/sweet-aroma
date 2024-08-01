@@ -124,7 +124,9 @@ The website can be accessed through this [link](https://alison546.github.io/swee
 * I confirmed that the colors and fonts chosen are easy to read and accessible by running each page through lighthouse in devtools 
 
 ![Index Page Lighthouse Report](documentation/sweet-aroma-index-lighthouse-desktop.png)
+
 ![Gallery Page Lighthouse Report](documentation/sweet-aroma-gallery-lighthouse-desktop.png)
+
 ![Contact Page Lighthouse Report](documentation/sweet-aroma-contact-lighthouse-desktop.png)
 
 ---
