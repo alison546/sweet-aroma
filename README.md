@@ -6,9 +6,9 @@
 
 The Sweet Aroma website allows visitors to learn more about the bakery and the products that it offers. This website is targeted to anyone who loves cakes, pastries, and treats for any and every occasion. Visitors can use the contact form to find out more information.
 
-The website can be accessed through this [link]()
+The website can be accessed through this [link](https://alison546.github.io/sweet-aroma/)
 
-![alt text](documentation/sweet-aroma-am-i-responsive.png)
+![Responsive Mockup](documentation/sweet-aroma-am-i-responsive.png)
 
 ---
 
@@ -16,7 +16,7 @@ The website can be accessed through this [link]()
 ### Favicon
 * A favicon of a birthday cake is displayed in the tab of the website along with the name.
 
-![alt text](documentation/sweet-aroma-favicon.png)
+![Favicon](documentation/sweet-aroma-favicon.png)
 
 ## Navigation 
 * Featured at the top of the page, the navigation bar shows the name of the bakery in the left corner: Sweet Aroma. If the user hovers over it with the mouse, it will turn from brown to orange, indicating that it is a link and can be clicked. The logo will take the user to the Home Page.
@@ -24,15 +24,28 @@ The website can be accessed through this [link]()
 * The navigation makes it easy for the user to find their way to the different pages of the website.
 
 
-![alt text](documentation/sweet-aroma-navigation.png)
-![alt text](documentation/sweet-aroma-logo-hover.png)
+![Nav Bar](documentation/sweet-aroma-navigation.png)
+![Logo Hover Effect](documentation/sweet-aroma-logo-hover.png)
+
+* The navigation bar is responsive
+* When users view the website on a mobile phone, the logo is in the center and a hamburger menu appears on the left hand side.
+* When the hamburger menu is clicked on, a dropdown menu appears and the links can be accessed
+
+![Index Page Desktop](documentation/sweet-aroma-navigation-mobile.png)
+
+* When the website is viewed on a tablet, the logo and the links appear more centered to accommodate the screen size.
+
+![Index Page Desktop](documentation/sweet-aroma-navigation-tablet.png)
 
 ## Home Page
 * The Home Page gives information about the company and what it does
 * Illustrates the type of products the bakery provides 
 * Provides easy navigation to the other links and pages
+* The links have a hover effect
 
-![alt text](documentation/sweet-aroma-macbook-index.png)
+![Index Page Desktop](documentation/sweet-aroma-macbook-index.png)
+
+
 
 ## The Header
 * The Header shows a picture of raspberry tarts with a slogan of "Providing you with a slice of heaven". It shows the user  a insight into what they can expect from the bakery.
@@ -77,8 +90,9 @@ The website can be accessed through this [link]()
 ## The Response Page 
 * The response page appears after the contact form is submitted
 * It contains a thank you and be in touch shortly message
+* It will automatically redirect to the Home page after 4 seconds
 
-![alt text](documentation/sweet-aroma-response-form.png)
+![alt text](documentation/sweet-aroma-macbook-response.png)
 
 ---
 
@@ -107,6 +121,11 @@ The website can be accessed through this [link]()
 * Error: The element a must not appear as a descendant of the button element.
 * I corrected this error by switching by making the button a descendent of the a element
 * There was no errors in the CSS when it passed through the CSS Jigsaw Validator
+* I confirmed that the colors and fonts chosen are easy to read and accessible by running each page through lighthouse in devtools 
+
+![Index Page Lighthouse Report](documentation/sweet-aroma-index-lighthouse-desktop.png)
+![Gallery Page Lighthouse Report](documentation/sweet-aroma-gallery-lighthouse-desktop.png)
+![Contact Page Lighthouse Report](documentation/sweet-aroma-contact-lighthouse-desktop.png)
 
 ---
 
