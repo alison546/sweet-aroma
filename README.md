@@ -6,14 +6,14 @@
 
 The Sweet Aroma website allows visitors to learn more about the bakery and the products that it offers. This website is targeted to anyone who loves cakes, pastries, and treats for any and every occasion. Visitors can use the contact form to find out more information.
 
-The website can be accessed through this [link](https://alison546.github.io/sweet-aroma/)
+The website can be accessed through this [link]()
 
-![alt text](documentation/sweet-aroma-responsive.png)
+![alt text](documentation/sweet-aroma-am-i-responsive.png)
 
 ---
 
 ## Features
-## Favicon
+### Favicon
 * A favicon of a birthday cake is displayed in the tab of the website along with the name.
 
 ![alt text](documentation/sweet-aroma-favicon.png)
@@ -26,6 +26,13 @@ The website can be accessed through this [link](https://alison546.github.io/swee
 
 ![alt text](documentation/sweet-aroma-navigation.png)
 ![alt text](documentation/sweet-aroma-logo-hover.png)
+
+## Home Page
+* The Home Page gives information about the company and what it does
+* Illustrates the type of products the bakery provides 
+* Provides easy navigation to the other links and pages
+
+![alt text](documentation/sweet-aroma-macbook-index.png)
 
 ## The Header
 * The Header shows a picture of raspberry tarts with a slogan of "Providing you with a slice of heaven". It shows the user  a insight into what they can expect from the bakery.
@@ -53,8 +60,8 @@ The website can be accessed through this [link](https://alison546.github.io/swee
 * The Gallery is responsive to the user's screen and will display as appropriate.
 * A "Back to Top" is displayed underneath the gallery to allow users to go back to the top of the page.
 
-![alt text](documentation/sweet-aroma-gallery-1.png)
-![alt text](documentation/sweet-aroma-gallery-2.png)
+![alt text](documentation/sweet-aroma-macbook-gallery.png)
+
 
 
 ## The Contact Page 
@@ -65,13 +72,15 @@ The website can be accessed through this [link](https://alison546.github.io/swee
 * The form is responsive on all screens
 * The submit button leads to the response page.
 
-![alt text](documentation/sweet-aroma-contact-form.png)
+![alt text](documentation/sweet-aroma-macbook-contact.png)
 
 ## The Response Page 
 * The response page appears after the contact form is submitted
 * It contains a thank you and be in touch shortly message
 
 ![alt text](documentation/sweet-aroma-response-form.png)
+
+---
 
 ## Technologies Used 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML): for building the structure of the website
@@ -99,5 +108,10 @@ The website can be accessed through this [link](https://alison546.github.io/swee
 * I corrected this error by switching by making the button a descendent of the a element
 * There was no errors in the CSS when it passed through the CSS Jigsaw Validator
 
+---
 
+## Deployment 
+* This site was deployed to GitHub pages. I used the following steps to do so: 
+ * In the [GitHub](https://github.com/alison546/sweet-aroma), click on the Settings tab at the end of nav bar
+ * 
 
