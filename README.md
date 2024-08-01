@@ -74,14 +74,14 @@ The website can be accessed through this [link](https://alison546.github.io/swee
 ![alt text](documentation/sweet-aroma-response-form.png)
 
 ## Technologies Used 
-* HTML: for building the structure of the website
-* CSS: for used for styling the elements and layout of the website
-* CSS Flexbox: to set items to shrink or grow to fit the space available
-* CSS Grid: to make the gallery responsive
-* Gitpod: editor used to write and edit the code
-* Git: was used for the version control of the website
-* GitHub: was used to host the code of the website
-* Snipping Tool: was used to edit and resize images for README file
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML): for building the structure of the website
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/css): for used for styling the elements and layout of the website
+* [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox): to set items to shrink or grow to fit the space available
+* [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid): to make the gallery responsive
+* [Gitpod](https://gitpod.io) editor used to write and edit the code
+* [Git](https://git-scm.com/): was used for the version control of the website
+* [GitHub](https://github.com/): was used to host the code of the website
+* [Snipping Tool](https://support.microsoft.com/en-us/windows/use-snipping-tool-to-capture-screenshots-00246869-1843-655f-f220-97299b865f6b): was used to edit and resize images for README file
 
 
 ## Testing 
