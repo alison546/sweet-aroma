@@ -107,11 +107,6 @@ The website can be accessed through this [link](https://alison546.github.io/swee
 * It contains a thank you and be in touch shortly message
 * It will automatically redirect to the Home page after 4 seconds
 
-1. 
-![Response Page on laptop screen](documentation/sweet-aroma-macbook-response.png)
-2. 
-![Response Page on laptop screen](documentation/sweet-aroma-macbook-response.png)
-3. 
 ![Response Page on laptop screen](documentation/sweet-aroma-macbook-response.png)
 ---
 
@@ -124,6 +119,7 @@ The website can be accessed through this [link](https://alison546.github.io/swee
 * [Git](https://git-scm.com/): was used for the version control of the website
 * [GitHub](https://github.com/): was used to host the code of the website
 * [Snipping Tool](https://support.microsoft.com/en-us/windows/use-snipping-tool-to-capture-screenshots-00246869-1843-655f-f220-97299b865f6b): was used to edit and resize images for README file
+* [Responsive Viewer](https://chromewebstore.google.com/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb?hl=en): for taking screenshots of the web pages on different screen sizes
 
 
 ## Testing 
@@ -176,7 +172,7 @@ The website can be accessed through this [link](https://alison546.github.io/swee
 ![Nav and Footer color](documentation/nav-and-footer-background-color.png)
 ![Hover effect color](documentation/hover-color.png)
 
-* I used these colours because they are warm colours 
+* I used these colours because I felt they would make the viewer feel at ease and entice them to view more.
 
 ---
 ## Wireframes
