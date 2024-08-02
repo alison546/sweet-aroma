@@ -52,6 +52,11 @@ The website can be accessed through this [link](https://alison546.github.io/swee
 
 ![Header on desktop screen](documentation/sweet-aroma-header.png)
 
+* The header for the iPad and mobile screens appears as follows: 
+
+![Header on tablet screen](documentation/sweet-aroma-ipad-index.png)
+![Header on mobile screen](documentation/sweet-aroma-header-mobile.png)
+
 ### The Main Section
 * In the main section, there is an about us section which details what the bakery offers customers and underneath there is a "Get in Touch!" button that when clicked on will bring users to the Contact page.
 * There is a small gallery which illustrates the products that the bakery offers such as: Fresh Cream Cakes, Fresh Cream Pastries, Treats, Breads and Birthday Cakes.
@@ -73,7 +78,12 @@ The website can be accessed through this [link](https://alison546.github.io/swee
 * The Gallery is responsive to the user's screen and will display as appropriate.
 * A "Back to Top" is displayed underneath the gallery to allow users to go back to the top of the page.
 
+1. Gallery Page on laptop screen
 ![Gallery page on laptop screen](documentation/sweet-aroma-gallery-macbook.png)
+2. Gallery Page on tablet screen
+![Gallery page on tablet screen](documentation/sweet-aroma-ipad-gallery.png)
+3. Gallery Page on mobile screen
+![Gallery page on mobile screen](documentation/sweet-aroma-mobile-gallery.png)
 
 
 
@@ -85,15 +95,24 @@ The website can be accessed through this [link](https://alison546.github.io/swee
 * The form is responsive on all screens
 * The submit button leads to the response page.
 
+1. Contact Page on laptop screen
 ![Contact Page on laptop screen](documentation/sweet-aroma-macbook-contact.png)
+2. Contact Page on tablet screen
+![Contact Page on tablet screen](documentation/sweet-aroma-ipad-contact.png)
+3. Contact Page on mobile screen
+![Contact Page on mobile screen](documentation/sweet-aroma-mobile-contact.png)
 
 ### The Response Page 
 * The response page appears after the contact form is submitted
 * It contains a thank you and be in touch shortly message
 * It will automatically redirect to the Home page after 4 seconds
 
+1. 
 ![Response Page on laptop screen](documentation/sweet-aroma-macbook-response.png)
-
+2. 
+![Response Page on laptop screen](documentation/sweet-aroma-macbook-response.png)
+3. 
+![Response Page on laptop screen](documentation/sweet-aroma-macbook-response.png)
 ---
 
 ## Technologies Used 
