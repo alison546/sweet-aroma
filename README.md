@@ -160,6 +160,16 @@ The website can be accessed through this [link](https://alison546.github.io/swee
 * I used these colours because they are warm colours 
 
 ---
+## Wireframes
+1. Wireframe for Index Page (Desktop)
+![Wireframe for Index page](documentation/sweet-aroma-wireframe-index.jpg)
+
+2. Wireframe for Gallery Page (Desktop)
+![Wireframe for Gallery page](documentation/sweet-aroma-wireframe-gallery.jpg)
+
+3.Wireframe for Contact Page (Desktop)
+![Wireframe for Contact page](documentation/sweet-aroma-wireframe-contact.jpg)
+---
 
 ## Credits
 
@@ -197,6 +207,12 @@ The images for this website came from [iStock](https://www.istockphoto.com/), [P
     * [Spiderman Cake](https://watchmecelebrate.com/best-spiderman-birthday-cake-ideas/)
     * [Original Birthday Cake](https://ohehirs.ie/product/birthday-original/)
     * [Red Velvet Birthday Cake](https://www.lolascupcakes.co.uk/Ordering/2408/Red-Velvet-Happy-Birthday-Cake.htm)
+
+## Acknowledgements 
+
+* [Juliia Konovalova](https://github.com/IuliiaKonovalova), my mentor who guided and supported me through the development of this project.
+* [Code Institute](https://codeinstitute.net/ie/full-stack-software-development-diploma/?utm_term=code%20institute&utm_campaign=CI+-+IRL+-+Search+-+Brand&utm_source=adwords&utm_medium=ppc&hsa_acc=8983321581&hsa_cam=14304747355&hsa_grp=128775288209&hsa_ad=635725005315&hsa_src=g&hsa_tgt=aud-315575994125:kwd-319867646331&hsa_kw=code%20institute&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=EAIaIQobChMIleDxyOrWhwMVxItQBh1sHDOEEAAYASAAEgLzW_D_BwE) tutors and Slack members for their help and support
+
 
 
 
