@@ -190,11 +190,11 @@ The images for this website came from [iStock](https://www.istockphoto.com/), [P
     * [Chocolate Chip Cookies](https://www.pexels.com/photo/macro-photography-of-pile-of-3-cookie-230325/)
     * [Raspberry Tarts](https://www.supervalu.co.uk/recipe/raspberry-tartlets)
     * [Chocolate Croissants](https://www.istockphoto.com/photo/fresh-chocolate-croissants-on-a-plate-gm180824921-24763997)
-    * 
+    * [Danish Pastries](https://www.istockphoto.com/photo/colourful-donut-gm971075570-264526757)
     * [Banana Bread](https://www.istockphoto.com/photo/banana-bread-loaf-on-wooden-table-gm1147312072-309428235)
-    * 
+    * [Sourdough Bread](https://delightbaking.com/the-big-fluffy-round-sourdough-bread/)
     * [Kit Kat Cake](https://www.gracebakery.in/p/kitkat-birthday-cake/birthday-cakes)
-    *  
+    * [Spiderman Cake](https://watchmecelebrate.com/best-spiderman-birthday-cake-ideas/)
     * [Original Birthday Cake](https://ohehirs.ie/product/birthday-original/)
     * [Red Velvet Birthday Cake](https://www.lolascupcakes.co.uk/Ordering/2408/Red-Velvet-Happy-Birthday-Cake.htm)
 
