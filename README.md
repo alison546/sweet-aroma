@@ -59,7 +59,7 @@ The website can be accessed through this [link](https://alison546.github.io/swee
 
 
 ![About Us section on desktop screen](documentation/sweet-aroma-about-us.png)
-![Gallery on desktop screen](documentation/sweet-aroma-small-gallery.png)
+![Home Gallery on desktop screen](documentation/sweet-aroma-home-gallery.png)
 
 ### The Footer Section
 * The footer contains icons for Facebook and Instagram that link to those websites respectively. When hovered over they will increase in size to show they can be clicked on. 
@@ -73,7 +73,7 @@ The website can be accessed through this [link](https://alison546.github.io/swee
 * The Gallery is responsive to the user's screen and will display as appropriate.
 * A "Back to Top" is displayed underneath the gallery to allow users to go back to the top of the page.
 
-![Gallery page on laptop screen](documentation/sweet-aroma-macbook-gallery.png)
+![Gallery page on laptop screen](documentation/sweet-aroma-gallery-macbook.png)
 
 
 
@@ -150,6 +150,15 @@ The website can be accessed through this [link](https://alison546.github.io/swee
  * For the headings and logo, I used the Lobster Google font to grab the viewers attention and it fits very well into the theme of the website.
 
  ![Lobster font family](documentation/lobster-font-family.png)
- 
+
+ ### Color Scheme 
+![Body background color](documentation/body-background-color.png)
+![Heading color](documentation/heading-color.png)
+![Nav and Footer color](documentation/nav-and-footer-background-color.png)
+![Hover effect color](documentation/hover-color.png)
+
+* I used these colours because they are warm colours 
+
+
 
 
