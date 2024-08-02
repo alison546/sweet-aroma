@@ -159,6 +159,46 @@ The website can be accessed through this [link](https://alison546.github.io/swee
 
 * I used these colours because they are warm colours 
 
+---
+
+## Credits
+
+### Content
+* Inspiration for the navigation bar menu and header came from [Love Running](https://alison546.github.io/sweet-aroma/) project 
+* Inspiration for the contact form came from [GreatStack](https://www.youtube.com/watch?v=524ycUqs3f0)
+* Inspiration for the colour scheme came from [Esty](https://www.etsy.com/ie/listing/1684479465/bakery-website-template-wix-website?gpla=1&gao=1&&utm_source=google&utm_medium=cpc&utm_campaign=shopping_ie_en_ie_-paper_and_party_supplies-paper&utm_custom1=_k_EAIaIQobChMIlNWW5Z7WhwMVyYFQBh2vuQvBEAQYByABEgLJ4fD_BwE_k_&utm_content=go_13703308007_123455828599_530490400750_pla-314261241307_c__1684479465enie_582240817&utm_custom2=13703308007&gad_source=1&gclid=EAIaIQobChMIlNWW5Z7WhwMVyYFQBh2vuQvBEAQYByABEgLJ4fD_BwE)
+ 
+### Images 
+
+The images for this website came from [iStock](https://www.istockphoto.com/), [Pexels](https://www.pexels.com) and [Google Images](https://www.google.ie/imghp?hl=en&ogbl)
+
+* [Hero Image](https://www.supervalu.co.uk/recipe/raspberry-tartlets)
+* Gallery on Home Page
+    * [Black Forest Cake](https://www.istockphoto.com/photo/black-forest-cake-gm182895267-13945313)
+    * [Chocolate Eclair](https://www.istockphoto.com/photo/chocolate-eclair-gm181880715-24671451)
+    * [Chocolate Chip Cookies](https://www.pexels.com/photo/macro-photography-of-pile-of-3-cookie-230325/)
+    * [Banana Bread](https://www.istockphoto.com/photo/banana-bread-loaf-on-wooden-table-gm1147312072-309428235)
+    * [Red Velvet Birthday Cake](https://www.lolascupcakes.co.uk/Ordering/2408/Red-Velvet-Happy-Birthday-Cake.htm)
+
+* Gallery Page 
+    * [Black Forest Cake](https://www.istockphoto.com/photo/black-forest-cake-gm182895267-13945313)
+    * [Victoria Sponge Cake](https://www.istockphoto.com/photo/two-layer-victoria-cake-with-whipped-cream-strawberry-jam-and-fresh-berries-closeup-gm1477957941-506354570)
+    * [Vanilla Swiss Roll](https://www.istockphoto.com/photo/two-layer-victoria-cake-with-whipped-cream-strawberry-jam-and-fresh-berries-closeup-gm1477957941-506354570)
+    * [Mojito Cheesecake](https://thebakingexplorer.com/mojito-cheesecake-no-bake/)
+    * [Chocolate Eclair](https://www.istockphoto.com/photo/chocolate-eclair-gm181880715-24671451)
+    * [Fresh Cream Doughnuts](https://eatmeerecipes.co.za/south-african-desserts/fresh-cream-doughnuts/)
+    * [Chocolate Chip Cookies](https://www.pexels.com/photo/macro-photography-of-pile-of-3-cookie-230325/)
+    * [Raspberry Tarts](https://www.supervalu.co.uk/recipe/raspberry-tartlets)
+    * [Chocolate Croissants](https://www.istockphoto.com/photo/fresh-chocolate-croissants-on-a-plate-gm180824921-24763997)
+    * 
+    * [Banana Bread](https://www.istockphoto.com/photo/banana-bread-loaf-on-wooden-table-gm1147312072-309428235)
+    * 
+    * [Kit Kat Cake](https://www.gracebakery.in/p/kitkat-birthday-cake/birthday-cakes)
+    *  
+    * [Original Birthday Cake](https://ohehirs.ie/product/birthday-original/)
+    * [Red Velvet Birthday Cake](https://www.lolascupcakes.co.uk/Ordering/2408/Red-Velvet-Happy-Birthday-Cake.htm)
+
+
 
 
 
